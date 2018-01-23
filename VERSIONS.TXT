@@ -1,7 +1,13 @@
-***** v2017-11-25 *****
+***** v2018-01-18 *****
 
 FIX: [WINPHONE8] Fixed target template.    (Author: Muruba)
 FIX: [TED] Fixed last selected target.    (Author: Pixelpaladin)
+FIX: [EXAMPLES] Fixed missing class prefix for fontmachine implementation in the matchup example.    (Author: MikeHart)
+FIX: [MAKEDOCS] Fixed Makedocs to allow module documentation starting within a module.    (Author: Holzchopf)
+FIX: [Language] DebugLog/DebugStop won't effect release builds anymore. They hit dummy functions now.
+FIX: [HTML5] DebugLog will output to the game console now.
+FIX: [DESKTOP] MOJO_AUTO_SUSPEND_ENABLED=False will be recognized when the window loses its focus.
+FIX: [DESKTOP] Updated stb_image.h file cause big images didn't load.
 
 ***** v2017-10-24 *****
 
